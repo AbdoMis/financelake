@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+h1 {
+    color: #333;
+}
+
+.container { /* A class you can apply to main sections if needed */
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Style for the error message area */
+#error-message-area {
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#error-message-area.error { /* Class to apply when there's an error */
+    color: #a94442; /* Dark red */
+    background-color: #f2dede; /* Light red */
+    border-color: #ebccd1; /* Reddish border */
+}
+
+#error-message-area.success { /* Optional: for success messages */
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
